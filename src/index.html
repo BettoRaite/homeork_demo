@@ -6,6 +6,7 @@
     <title>Homeork</title>
     <link rel="stylesheet" href="/src/styles/default.css" />
     <link rel="stylesheet" href="/src/styles/navbar.css" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -33,7 +34,7 @@
             src="../public/icons/group_add_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
           />
-          <a href="">Найти группу</a>
+          <a href="">Найти заказчика</a>
         </li>
         <li class="navbar__link">
           <img
@@ -41,14 +42,61 @@
             src="../public/icons/payments_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
           />
-          <a href="">Поддержка</a>
+          <a href="">Найти исполнителя</a>
         </li>
         <li class="navbar__link">
-          <img class="link-icon" src="../public/icons/home_FILL0_wght400_GRAD0_opsz24.svg" alt="" />
+          <img
+            class="link-icon"
+            src="../public/icons/assignment_ind_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />
           <a href="">О нас</a>
         </li>
       </ul>
     </nav>
-    <main class="main-grid"></main>
+    <main>
+      <section class="start-section">
+        <div class="start-section__text-wrapper">
+          <h1 class="start-section__header-text">Найди лучших людей для твоей работы!</h1>
+          <p class="start-section__text">Подбери свою команду специалистов и покори этот мир!</p>
+          <button class="start-section__find-people-btn">Начать искать</button>
+        </div>
+        <div class="main-grid__img1"></div>
+      </section>
+      <div class="separator"></div>
+      <section class="services-section">
+        <p class="services-section__header-text">Наши услуги</p>
+        <div class="services-section__grid">
+          <div class="services-section__card">
+            <img class="card__icon" src="../public/icons/secure.png" alt="" />
+            <p class="card__description">
+              Проведение безопастное сделки между покупателем и исполнителем
+            </p>
+          </div>
+
+          <div class="services-section__card">
+            <img class="card__icon" src="../public/icons/people.png" alt="" />
+            <p class="card__description">Большое количество исполнителей со всего мира</p>
+          </div>
+
+          <div class="services-section__card">
+            <img class="card__icon" src="../public/icons/team.png" alt="" />
+            <p class="card__description">Профессиональный ответ на любые вопросы</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Attribution
+      <a href="https://www.flaticon.com/free-icons/safe" title="safe icons"
+        >Safe icons created by Ilham Fitrotul Hayat - Flaticon</a
+      ><a href="https://www.flaticon.com/free-icons/protection" title="protection icons"
+        >Protection icons created by kumakamu - Flaticon</a
+      ><a href="https://www.flaticon.com/free-icons/people" title="people icons"
+        >People icons created by Vitaly Gorbachev - Flaticon</a
+      ><a href="https://www.flaticon.com/free-icons/team" title="team icons"
+        >Team icons created by Freepik - Flaticon</a
+      >
+    </footer>
   </body>
 </html>

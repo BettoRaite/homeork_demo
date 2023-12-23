@@ -1,13 +1,15 @@
 .navbar {
   height: 70px;
+
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
   align-items: center;
-  background-color: #7f7caf;
+  background-color: #7678ed;
   font-family: "Roboto", sans-serif;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
 }
